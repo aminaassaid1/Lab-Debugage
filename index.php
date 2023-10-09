@@ -17,7 +17,7 @@ try {
     echo "Connection failed: " . $e->getMessage();
 }
 
-$sql = "SELECT * FROM personne"; // Corrected table name
+$sql = "SELECT * FROM personne"; 
 $result = $conn->query($sql);
 
 if ($result->rowCount() > 0) {
